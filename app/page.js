@@ -54,7 +54,6 @@ function RelanceRow({ prospect }) {
         {date && <span className="text-xs text-gray-400">{date}</span>}
         {prospect.telephone && (
           <a href={`tel:${prospect.telephone}`}
-            onClick={e => e.stopPropagation()}
             className="text-brand-600 text-xs font-medium hover:underline">
             Appeler
           </a>
