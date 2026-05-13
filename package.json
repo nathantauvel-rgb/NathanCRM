@@ -1,0 +1,26 @@
+{
+  "name": "prospection",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@hello-pangea/dnd": "^16.6.0",
+    "@supabase/supabase-js": "^2.43.1",
+    "date-fns": "^3.6.0",
+    "lucide-react": "^0.378.0",
+    "next": "^16.2.6",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "eslint": "^10.3.0",
+    "eslint-config-next": "^16.2.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.3"
+  }
+}
